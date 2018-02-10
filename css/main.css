@@ -2,6 +2,23 @@
 ul {
   list-style-type: none;
 }
+/*----- A S I D E -----*/
+aside {
+  background-color: #FAF97B;
+}
+
+aside * {
+  color: black;
+}
+
+aside section h2:first-child {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+
 #profile-pic img {
   border-radius: 50%;
 }
