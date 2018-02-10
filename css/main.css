@@ -1,0 +1,7 @@
+/* General Rules */
+ul {
+  list-style-type: none;
+}
+#profile-pic img {
+  border-radius: 50%;
+}
