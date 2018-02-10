@@ -27,3 +27,6 @@ aside * {
   border-radius: 50%;
 }
 /*----- M A I N -----*/
+main article h3 {
+  font-weight: bold;
+}
