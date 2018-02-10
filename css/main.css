@@ -2,23 +2,28 @@
 ul {
   list-style-type: none;
 }
-/*----- A S I D E -----*/
-aside {
-  background-color: #FAF97B;
-}
 
-aside * {
-  color: black;
-}
-
-aside section h2:first-child {
+section h2:first-child {
   text-transform: capitalize;
   letter-spacing: 3px;
   text-align: left;
   background-color: gray;
   color: white;
 }
+/*----- A S I D E -----*/
+aside {
+  background-color: #FAF97B;
+}
+#contacts-h2 {
+  background-color: transparent;
+  text-align: center;
+  color: black;
+}
+aside * {
+  color: black;
+}
 
 #profile-pic img {
   border-radius: 50%;
 }
+/*----- M A I N -----*/
