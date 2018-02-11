@@ -70,3 +70,25 @@ dt:last-of-type,
 dd:last-of-type {
   border-bottom: 1px solid black;
 }
+
+/* ----- I C O N S ----- f008 f02d*/
+.music::before {
+  content: "\f152";
+  font-family: "Font Awesome 5 Free";
+}
+
+.book::before {
+  content: "\f02d";
+  font-family: "Font Awesome 5 Free";
+}
+.movie::before {
+  content: "\f008";
+  font-family: "Font Awesome 5 Free";
+}
+
+.hobby-icon {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
