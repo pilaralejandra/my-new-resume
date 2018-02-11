@@ -53,10 +53,11 @@ dl {
   justify-content: space-around;
 }
 dt {
-  width: 30%;
+  width: 33%;
+  font-weight: bold;
 }
 dd {
-  width: 50%;
+  width: 53%;
 }
 
 dt,
