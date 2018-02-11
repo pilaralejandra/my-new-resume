@@ -62,7 +62,7 @@ dd {
 
 dt,
 dd {
-  line-height: 1em;
+  line-height: 2em;
   border-top: 1px solid black;
   margin: 0;
 }
@@ -98,4 +98,14 @@ dd:last-of-type {
 
 .hobby-icon {
   font-size: 20px;
+}
+
+/* C O N T A C T */
+.contact {
+  font-size: 15px;
+}
+.fb::before {
+  content: "\f082";
+  font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
 }
