@@ -1,7 +1,9 @@
 /* ----- L A Y O U T ----- */
-.mian-container {
+.main-container {
   display: flex;
-  width: 1200px;
+  flex-basis: 1200px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 /*----- General Rules -----*/
 ul {
@@ -37,6 +39,9 @@ aside * {
   margin: 20px 8px;
 }
 /*----- M A I N -----*/
+main {
+  flex-basis: 50%;
+}
 main article h3 {
   font-weight: bold;
 }
