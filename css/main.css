@@ -18,7 +18,7 @@ section h2:first-child {
 /*----- A S I D E -----*/
 aside {
   background-color: #FAF97B;
-  width: 30%;
+  width: 35%;
   margin-right: 3%;
 }
 #contacts-h2 {
@@ -44,4 +44,28 @@ main article h3 {
 #degree {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+/* DL */
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+dt {
+  width: 30%;
+}
+dd {
+  width: 50%;
+}
+
+dt,
+dd {
+  line-height: 1em;
+  border-top: 1px solid black;
+  margin: 0;
+}
+dt:last-of-type,
+dd:last-of-type {
+  border-bottom: 1px solid black;
 }
