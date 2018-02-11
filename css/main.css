@@ -72,23 +72,30 @@ dd:last-of-type {
 }
 
 /* ----- I C O N S ----- f008 f02d*/
+.hobbies {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .music::before {
   content: "\f152";
   font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
 }
 
 .book::before {
   content: "\f02d";
   font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
 }
 .movie::before {
   content: "\f008";
   font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
 }
 
 .hobby-icon {
   font-size: 20px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
