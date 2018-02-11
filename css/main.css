@@ -1,4 +1,9 @@
-/* General Rules */
+/* ----- L A Y O U T ----- */
+.mian-container {
+  display: flex;
+  width: 1200px;
+}
+/*----- General Rules -----*/
 ul {
   list-style-type: none;
 }
@@ -13,6 +18,8 @@ section h2:first-child {
 /*----- A S I D E -----*/
 aside {
   background-color: #FAF97B;
+  width: 30%;
+  margin-right: 3%;
 }
 #contacts-h2 {
   background-color: transparent;
