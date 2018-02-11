@@ -32,6 +32,9 @@ aside * {
 
 #profile-pic img {
   border-radius: 50%;
+  width: 350px;
+  height: auto;
+  margin: 20px 8px;
 }
 /*----- M A I N -----*/
 main article h3 {
