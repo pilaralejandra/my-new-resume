@@ -109,3 +109,12 @@ dd:last-of-type {
   font-family: "Font Awesome 5 Free";
   padding-right: 5px;
 }
+ /* ----- M E T E R ----- */
+ meter {
+   display: block;
+   width: 80%;
+ }
+ meter::-webkit-meter-optimum-value {
+   background: none;
+   background-color: #00ADA9;
+ }
