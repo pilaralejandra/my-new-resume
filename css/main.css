@@ -23,10 +23,24 @@ aside {
   width: 35%;
   margin-right: 3%;
 }
+aside h1 {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+#role {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 40px;
+}
 #contacts-h2 {
   background-color: transparent;
   text-align: center;
-  color: black;
+  color: gray;
 }
 aside * {
   color: black;
