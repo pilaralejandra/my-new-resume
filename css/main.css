@@ -150,3 +150,15 @@ dd:last-of-type {
    background: none;
    background-color: #00ADA9;
  }
+
+ @media (max-width: 400px) {
+   .main-container {
+     width: 400px;
+     flex-wrap: wrap;
+     font-size: 1.2em;
+   }
+   aside,
+   main {
+     flex: 100%;
+   }
+ }
