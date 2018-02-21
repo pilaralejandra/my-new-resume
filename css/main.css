@@ -128,9 +128,9 @@ dd:last-of-type {
   padding-right: 5px;
 }
 
-.hobby-icon {
-  font-size: 20px;
-}
+/* .hobby-icon {
+  font-size: 150%;
+} */
 
 /* C O N T A C T */
 .contact {
@@ -151,7 +151,9 @@ dd:last-of-type {
    background-color: #00ADA9;
  }
 
- @media (max-width: 400px) {
+ /*===== M E D I A  Q U E R I E S =====*/
+/*----- Handheld Devices -----*/
+ @media (min-width: 320px) and (max-width: 480px) {
    .main-container {
      width: 100%;
      flex-wrap: wrap;
@@ -160,5 +162,32 @@ dd:last-of-type {
    aside,
    main {
      flex-basis: 100%;
+   }
+
+   dl {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+   }
+   dt {
+     flex-basis: 30%;
+     font-weight: bold;
+   }
+   dd {
+     flex-basis: 65%;
+   }
+
+   dt,
+   dd {
+     line-height: 1.5em;
+     border-top: 1px solid black;
+     margin: 0;
+   }
+   dt:last-of-type,
+   dd:last-of-type {
+     border-bottom: 1px solid black;
+   }
+   .small {
+     font-size: .8em;
    }
  }
