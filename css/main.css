@@ -53,13 +53,13 @@ aside * {
 
 #profile-pic img {
   border-radius: 50%;
-  width: 350px;
+  width: 80%;
   height: auto;
   margin: 20px 8px;
 }
 /*----- M A I N -----*/
 main {
-  flex-basis: 50%;
+  flex-basis: 60%;
 }
 main article h3 {
   font-weight: bold;
@@ -85,11 +85,11 @@ dl {
   justify-content: space-around;
 }
 dt {
-  width: 33%;
+  flex-basis: 33%;
   font-weight: bold;
 }
 dd {
-  width: 53%;
+  flex-basis: 53%;
 }
 
 dt,
@@ -153,13 +153,12 @@ dd:last-of-type {
 
  @media (max-width: 400px) {
    .main-container {
-     width: 400px;
+     width: 100%;
      flex-wrap: wrap;
      font-size: 1.2em;
    }
    aside,
    main {
      flex-basis: 100%;
-     width: 100%;
    }
  }
