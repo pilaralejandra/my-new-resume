@@ -191,3 +191,47 @@ dd:last-of-type {
      font-size: .8em;
    }
  }
+/*----- tablets -----*/
+ @media (min-width : 600px) and (max-width : 1024px)  {
+   .main-container {
+     width: 100%;
+     flex-wrap: wrap;
+     font-size: 1.1em;
+   }
+   aside {
+     flex-basis: 40%;
+   }
+   main {
+     flex-basis: 55%;
+   }
+
+   dl {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+   }
+   dt {
+     flex-basis: 20%;
+     font-weight: bold;
+   }
+   dd {
+     flex-basis: 75%;
+   }
+
+   dt,
+   dd {
+     line-height: 1.5em;
+     border-top: 1px solid black;
+     margin: 0;
+   }
+   dt:last-of-type,
+   dd:last-of-type {
+     border-bottom: 1px solid black;
+   }
+   .small-tablets {
+     font-size: .7em;
+   }
+   dd.small {
+     font-size: .9em;
+   }
+ }
